@@ -1,0 +1,49 @@
+# Processador Inteligente de Relatórios de Manutenção (Gemini API)
+
+Ferramenta desenvolvida em **Python** para automatizar a leitura e a estruturação de relatórios de manutenção industrial não estruturados, transformando texto livre em dados JSON precisos utilizando a inteligência artificial do **Google Gemini**.
+
+---
+
+## Funcionalidades
+- **Análise de Texto Livre:** Lê relatórios operacionais em formato de texto.
+- **Extração Estruturada:** Converte automaticamente detalhes críticos (equipamento, data, técnico responsável, status, problemas encontrados e ações corretas) para formato **JSON**.
+- **Resiliência de Rede:** Inclui lógica integrada de limpeza de variáveis de proxy locais do Windows para garantir ligações estáveis em ambientes restritos.
+
+---
+
+## Tecnologias Utilizadas
+- **Python 3.x**
+- **Google GenAI SDK (`google-genai`)**
+- **Python-Dotenv** (gestão segura de variáveis de ambiente)
+
+---
+
+## Como Executar o Projeto
+
+1. **Clona o repositório:**
+   ```bash
+   git clone [https://github.com/felipe2008jmf-mec/processador-relatorios-gemini.git](https://github.com/felipe2008jmf-mec/processador-relatorios-gemini.git)
+   cd processador-relatorios-gemini
+
+2. **Crie um ambiente virtual**
+   ```bash
+   python -m venv .venv
+    --No Windows (PowerShell):
+   .venv\Scripts\Activate
+
+3. **Instale as depêndencias**
+   ```bash
+   pip install google-genai python-dotenv
+
+4. Configure sua chave API:
+   ```bash
+   Cria um ficheiro chamado .env na raiz do projeto e adiciona a tua chave da API da seguinte forma: GEMINI_API_KEY=suachaveaqui
+
+6. Execute o código
+   ```bash
+   python app.py relatorio_exemplo.txt
+
+
+
+EXEMPLO DE SAÍDA
+<img width="802" height="397" alt="Captura de tela 2026-11-01 152110" src="https://github.com/user-attachments/assets/4eb6f0fd-11ac-4eba-953a-4d424ccf7afb" />
