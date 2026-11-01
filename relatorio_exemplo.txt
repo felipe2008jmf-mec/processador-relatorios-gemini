@@ -1,0 +1,44 @@
+RELATÓRIO DE MANUTENÇÃO
+Ordem de Serviço: OS-2026-1847
+Data do serviço: 28/10/2026
+Cliente: Metalúrgica Aurora Ltda
+Local: Linha 3 — Prensa hidráulica, galpão B, unidade Caxias do Sul/RS
+
+Equipamento: Prensa hidráulica de 250 toneladas
+Modelo: PH-250-XL
+Número de série: AUR-PH-250-00912
+Técnico responsável: Ana Paula Ferreira
+
+Tipo de manutenção: Corretiva
+
+Descrição do problema:
+Durante o turno da manhã a prensa apresentou queda de pressão no circuito principal,
+ruído anormal no conjunto da bomba e ciclo de descida incompleto. A produção da
+linha 3 foi interrompida às 09:15.
+
+Serviços realizados:
+- Isolamento elétrico e hidráulico do equipamento (LOTO)
+- Inspeção visual de mangueiras, conexões e reservatório
+- Medição de pressão no circuito principal (leitura inicial: 95 bar; especificação: 210 bar)
+- Substituição da bomba de palhetas e do filtro de retorno
+- Reaperto das conexões do bloco manifold
+- Completar nível de óleo hidráulico ISO VG 46
+- Teste funcional em vazio e com carga (3 ciclos)
+- Liberação do equipamento para produção às 14:40
+
+Peças substituídas:
+- Bomba de palhetas Vickers V20, código V20-1P8P-1C20, quantidade: 1
+- Filtro de retorno 10 µm, código FR-10-250, quantidade: 1
+- Junta do flange de sucção, código JF-SUC-32, quantidade: 1
+
+Horas trabalhadas: 5,5 h
+Status: Concluído
+
+Recomendações:
+- Programar análise de óleo (contagem de partículas ISO 4406) na próxima preventiva
+- Verificar alinhamento do acoplamento da bomba em 30 dias
+- Manter estoque mínimo de 1 bomba V20 equivalente
+
+Observações:
+O óleo do reservatório apresentava tom escurecido, mas sem cheiro de queimado.
+Não houve vazamento após o teste com carga. Operador da linha: Carlos Mendes.
