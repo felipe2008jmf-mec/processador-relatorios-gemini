@@ -25,26 +25,22 @@ Ferramenta desenvolvida em **Python** para automatizar a leitura e a estruturaç
    git clone [https://github.com/felipe2008jmf-mec/processador-relatorios-gemini.git](https://github.com/felipe2008jmf-mec/processador-relatorios-gemini.git)
    cd processador-relatorios-gemini
 
-2. **Crie um ambiente virtual**
-   ```bash
-   python -m venv .venv
-    --No Windows (PowerShell):
-   .venv\Scripts\Activate
 
-3. **Instale as depêndencias**
+2. **Instale as depêndencias**
    ```bash
-   pip install google-genai python-dotenv
+   pip install streamlit google-genai python-dotenv
 
-4. Configure sua chave API:
+3. Configure sua chave API:
    ```bash
    Cria um ficheiro chamado .env na raiz do projeto e adiciona a tua chave da API da seguinte forma: GEMINI_API_KEY=suachaveaqui
 
-6. Execute o código
+5. Execute o código
    ```bash
-   python app.py relatorio_exemplo.txt
+   streamlit run app.py
 
 
-<img width="802" height="397" alt="Captura de tela 2026-11-01 152110" src="https://github.com/user-attachments/assets/4eb6f0fd-11ac-4eba-953a-4d424ccf7afb" />
+<img width="1062" height="920" alt="Captura de tela 2026-11-03 214107" src="https://github.com/user-attachments/assets/b515bf81-d138-422a-abd1-b106c0707b82" />
+
 
 
 ## AUTOR: Felipe Freitas
