@@ -20,15 +20,15 @@ Ferramenta desenvolvida em **Python** para automatizar a leitura e a estruturaç
 
 ## Como Executar o Projeto
 
-1. **Clona o repositório:**
+1. **Cria e ativa um ambiente virtual:**
    ```bash
-   git clone [https://github.com/felipe2008jmf-mec/processador-relatorios-gemini.git](https://github.com/felipe2008jmf-mec/processador-relatorios-gemini.git)
-   cd processador-relatorios-gemini
-
+   python -m venv .venv
+   # No Windows (PowerShell):
+   .venv\Scripts\Activate
 
 2. **Instale as depêndencias**
    ```bash
-   pip install streamlit google-genai python-dotenv
+   pip install google-genai python-dotenv
 
 3. Configure sua chave API:
    ```bash
@@ -36,11 +36,18 @@ Ferramenta desenvolvida em **Python** para automatizar a leitura e a estruturaç
 
 5. Execute o código
    ```bash
-   streamlit run app.py
+   python app.py
 
-
-<img width="1062" height="920" alt="Captura de tela 2026-11-03 214107" src="https://github.com/user-attachments/assets/b515bf81-d138-422a-abd1-b106c0707b82" />
-
+## EXEMPLO DE SAÍDA
+```bash
+{
+  "cliente": "Carlos Silva",
+  "categoria": "Suporte Técnico",
+  "urgencia": "Alta",
+  "resumo_problema": "Falha de conexão persistente após atualização do sistema.",
+  "resposta_sugerida": "Olá Carlos, lamentamos o transtorno. Identificamos que a falha pode estar relacionada com o cache da última atualização. Poderia tentar reiniciar o equipamento e seguir os passos..."
+}
+```
 
 
 ## AUTOR: Felipe Freitas
