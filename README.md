@@ -44,6 +44,7 @@ Ferramenta desenvolvida em **Python** para automatizar a leitura e a estruturaç
    python app.py relatorio_exemplo.txt
 
 
-
-EXEMPLO DE SAÍDA
 <img width="802" height="397" alt="Captura de tela 2026-11-01 152110" src="https://github.com/user-attachments/assets/4eb6f0fd-11ac-4eba-953a-4d424ccf7afb" />
+
+
+## AUTOR: Felipe Freitas
